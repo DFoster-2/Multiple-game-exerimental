@@ -15,10 +15,10 @@ def pluss():
   while editchoice != "EXIT":
     a = int(input())
     b = int(input())
-    anser = a + b
-    print(a, "+", b, "=", anser)
+    answer = a + b
+    print(a, "+", b, "=", answer)
     editchoice = input(
-      "press return to carry on, or type EXIT to leave ").upper()
+      "Press return to carry on, or type EXIT to leave ").upper()
     if editchoice == "EXIT":
       exit()
 
@@ -28,10 +28,10 @@ def devide():
   while editchoice != "EXIT":
     a = int(input())
     b = int(input())
-    anser = a / b
-    print(a, "/", b, "=", anser)
+    answer = a / b
+    print(a, "/", b, "=", answer)
     editchoice = input(
-      "press return to carry on, or type EXIT to leave ").upper()
+      "Press return to carry on, or type EXIT to leave ").upper()
     if editchoice == "EXIT":
       exit()
 
@@ -41,10 +41,10 @@ def Sutract():
   while editchoice != "EXIT":
     a = int(input())
     b = int(input())
-    anser = a - b
-    print(a, "-", b, "=", anser)
+    answer = a - b
+    print(a, "-", b, "=", answer)
     editchoice = input(
-      "press return to carry on, or type EXIT to leave ").upper()
+      "Press return to carry on, or type EXIT to leave ").upper()
     if editchoice == "EXIT":
       exit()
 
@@ -54,9 +54,9 @@ def Times():
   while editchoice != "EXIT":
     a = int(input())
     b = int(input())
-    anser = a * b
-    print(a, "x", b, "=", anser)
+    answer = a * b
+    print(a, "x", b, "=", answer)
     editchoice = input(
-      "press return to carry on, or type EXIT to leave ").upper()
+      "Press return to carry on, or type EXIT to leave ").upper()
     if editchoice == "EXIT":
       exit()
