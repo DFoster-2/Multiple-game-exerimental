@@ -1,11 +1,11 @@
 def Times_mashen():
   editchoice = " Nothing "
   while editchoice != "EXIT":
-    table = int(input("please tipe a tible:"))
-    number = int(input("Up to"))
+    table = int(input("Please type a times table: "))
+    number = int(input("Up to: "))
     for x in range(0, number + 1):
       print(x, "x", table, "=", x * table)
     editchoice = input(
-      "press reatern to play again, or tipe EXIT to leave ").upper()
+      "Press return to play again, or type EXIT to leave. ").upper()
     if editchoice == "EXIT":
       exit()
