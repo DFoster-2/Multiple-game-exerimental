@@ -159,7 +159,7 @@ def on_click(event):
       if squaresToClear == 0:
         gameOver = True
         print("Well done! you found all the safe squares")
-        print("Your scor was:", score)
+        print("Your score was:", score)
         print(
           " -----------------------------------------Restart----------------------------------"
         )
